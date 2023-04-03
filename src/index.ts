@@ -58,7 +58,7 @@ const UIAA_ARRAY = [
   '8-', '8', '8+', '9-', '9',
   '9+', '10-', '10', '10+', '11-', '11', '11+',
   '12-', '12'
-];
+]
 
 const CLASS_ARRAY = [
   'Class 1', 'Class 2', 'Class 3', 'Class 4', 'Class 5'

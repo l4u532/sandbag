@@ -58,9 +58,9 @@ describe('Grades', function () {
       describe('UIAA', function () {
         it('should have valid grades', function () {
           const expected = ['1', '2', '3', '4', '4+/5-',
-          '5', '5+', '6-', '6', '6+', '7-', '7', '7+',
-          '8-', '8', '8+', '9-', '9', '9+', '10-',
-          '10', '10+', '11-', '11', '11+', '12-', '12']
+            '5', '5+', '6-', '6', '6+', '7-', '7', '7+',
+            '8-', '8', '8+', '9-', '9', '9+', '10-',
+            '10', '10+', '11-', '11', '11+', '12-', '12']
           const actual = grades.freeClimbing.clean.UIAA
           expect(actual).toStrictEqual(expected)
         })
