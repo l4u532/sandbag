@@ -3,7 +3,7 @@ import routes from '../data/routes.json'
 import { Route } from '.'
 import { GradeBandTypes, routeScoreToBand } from '../GradeBands'
 
-const uiaaGradeRegex = /^(\d{1,2}\+?\/?\d?-?)+$/
+const uiaaGradeRegex = /^(\d{1,2}[+-]?\/?\d?[+-]?)$/
 const isUIAA = (grade: string): RegExpMatchArray | null => grade.match(uiaaGradeRegex)
 
 // UIAA grading system, predominant in Central Europe (esp. Germany, Austria, Switzerland)
