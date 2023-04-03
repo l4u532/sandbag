@@ -63,7 +63,7 @@ const getScore = (grade: string): number | Tuple => {
     }
     if (otherGrade !== undefined) {
       const nextGrade = findScoreRange(
-        (r: Route) => r.uiaa.toLowerCase() === routes[otherGrade].UIAA.toLowerCase(),
+        (r: Route) => r.uiaa.toLowerCase() === routes[otherGrade].uiaa.toLowerCase(),
         routes
       )
       return [getAvgScore(basicScore), getAvgScore(nextGrade)].sort((a, b) => a - b) as Tuple
